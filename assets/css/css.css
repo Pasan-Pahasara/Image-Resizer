@@ -90,3 +90,12 @@ body{
     pointer-events: auto;
     transition: opacity 0.5s 0.05s ease;
 }
+
+.details .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.details .row .column{
+    width: calc(100% / 2 - 15px);
+}
