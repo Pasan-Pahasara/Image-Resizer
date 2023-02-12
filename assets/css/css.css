@@ -62,3 +62,8 @@ body{
 .wrapper.active .upload-box{
     border: none;
 }
+
+.upload-box p{
+    font-size: 1.06rem;
+    margin-top: 20px;
+}
