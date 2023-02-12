@@ -67,3 +67,8 @@ body{
     font-size: 1.06rem;
     margin-top: 20px;
 }
+
+.wrapper.active .upload-box p{
+    display: none;
+}
+
