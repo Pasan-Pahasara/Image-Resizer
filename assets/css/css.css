@@ -119,3 +119,7 @@ body{
     padding: 0 14px;
     border: 2px solid #927DFC;
 }
+
+.details .checkboxes{
+    margin-top: 20px;
+}
