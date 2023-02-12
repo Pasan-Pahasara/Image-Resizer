@@ -7,38 +7,50 @@
     <link rel="stylesheet" href="assets/css/css.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 </head>
-
 <body>
-<div class="wrapper">
-    <div class="upload-box">
-        <input type="file" accept="image/*" hidden>
-        <img src="assets/img/upload-icon.svg" alt="">
-        <p>Browse Image to Upload</p>
-    </div>
-    <div class="details">
-        <div class="row sizes">
-            <div class="column width">
-                <label>Width</label>
-                <input type="number">
-            </div>
-            <div class="column height">
-                <label>Height</label>
-                <input type="number">
-            </div>
+<header>
+    <nav class="navbar navbar-expand-lg border-bottom shadow-lg sticky-top navbar-dark"
+         style="background-color: #232121; border-bottom: none !important;">
+        <div class="container-fluid justify-content-center">
+            <a class="navbar-brand" href="#" style="font-size: 18px; color: #A87E5A;">
+                <img alt="" src="assets/img/favicon.png" style="width: 32px;height: 32px;position: absolute;">
+                <span style="font-size: 20px; font-weight: bolder; color: #f0f0f0; margin-left: 46px; text-align: center">IᗰᗩGE </span>
+                 Resizer</a>
         </div>
-        <div class="row checkboxes">
-            <div class="column radio">
-                <input type="checkbox" id="radio" checked>
-                <label for="radio">Lock aspect ratio</label>
-            </div>
-            <div class="column reduce">
-                <input type="checkbox" id="reduce">
-                <label for="reduce">Reduce quality</label>
-            </div>
+    </nav>
+</header>
+<section class="main-wrapper">
+    <div class="wrapper">
+        <div class="upload-box">
+            <input type="file" accept="image/*" hidden>
+            <img src="assets/img/upload-icon.svg" alt="">
+            <p>Browse Image to Upload</p>
         </div>
-        <button class="btn-download">Download Image</button>
+        <div class="details">
+            <div class="row sizes">
+                <div class="column width">
+                    <label>Width</label>
+                    <input type="number">
+                </div>
+                <div class="column height">
+                    <label>Height</label>
+                    <input type="number">
+                </div>
+            </div>
+            <div class="row checkboxes">
+                <div class="column radio">
+                    <input type="checkbox" id="radio" checked>
+                    <label for="radio">Lock aspect ratio</label>
+                </div>
+                <div class="column reduce">
+                    <input type="checkbox" id="reduce">
+                    <label for="reduce">Reduce quality</label>
+                </div>
+            </div>
+            <button class="btn-download">Download Image</button>
+        </div>
     </div>
-</div>
+</section>
 <script src="assets/js/script.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/jQuery/jquery-3.6.0.min.js"></script>
