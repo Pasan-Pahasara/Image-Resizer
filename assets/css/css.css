@@ -48,3 +48,17 @@ body{
 .wrapper.active{
     height: 537px;
 }
+
+.wrapper .upload-box{
+    height: 225px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px dashed #afafaf;
+}
+.wrapper.active .upload-box{
+    border: none;
+}
