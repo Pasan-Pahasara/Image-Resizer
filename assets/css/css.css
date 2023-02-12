@@ -128,9 +128,24 @@ body{
     display: flex;
     align-items: center;
 }
+
 .checkboxes .column input{
     width: 17px;
     height: 17px;
     margin-right: 9px;
     accent-color: #927DFC;
+}
+
+.details .btn-download{
+    width: 100%;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.06rem;
+    border-radius: 5px;
+    padding: 15px 0;
+    margin: 30px 0 10px;
+    background: #927DFC;
+    text-transform: uppercase;
 }

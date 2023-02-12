@@ -11,12 +11,12 @@
 <div class="wrapper">
     <div class="upload-box">
         <input type="file" accept="image/*" hidden>
-        <img src="upload-icon.svg" alt="">
+        <img src="assets/img/upload-icon.svg" alt="">
         <p>Browse Image to Upload</p>
     </div>
     <div class="details">
         <div class="row sizes">
-            <div class="column">
+            <div class="column ">
                 <label>Width</label>
                 <input type="number">
             </div>
@@ -27,15 +27,15 @@
         </div>
         <div class="row checkboxes">
             <div class="column">
-                <input type="checkbox" checked>
-                <label>Lock aspect ratio</label>
+                <input type="checkbox" id="ratio" checked>
+                <label for="ratio">Lock aspect ratio</label>
             </div>
             <div class="column">
-                <input type="checkbox">
-                <label>Reduce quality</label>
+                <input type="checkbox" id="reduce">
+                <label for="reduce">Reduce quality</label>
             </div>
         </div>
-        <button>Download Image</button>
+        <button class="btn-download">Download Image</button>
     </div>
 </div>
 </body>
