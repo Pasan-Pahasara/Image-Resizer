@@ -3,8 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Image Resizer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
 
+<body>
+<div>
+    <div>
+        <input type="file" accept="" hidden>
+        <img src="" alt="">
+        <p>Browse File to Upload</p>
+    </div>
+    <div>
+        <div>
+            <div>
+                <label>Width</label>
+                <input type="number">
+            </div>
+            <div>
+                <label>Height</label>
+                <input type="number">
+            </div>
+        </div>
+        <div>
+            <div>
+                <input type="checkbox" checked>
+                <label>Lock aspect ratio</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label>Reduce quality</label>
+            </div>
+        </div>
+        <button>Download Image</button>
+    </div>
+</div>
 </body>
 </html>
