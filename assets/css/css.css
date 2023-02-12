@@ -32,9 +32,9 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #5C258D;
-    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);
-    background: linear-gradient(to right, #4389A2, #5C258D);
+    /*background: #5C258D;*/
+    /*background: -webkit-linear-gradient(to right, #4389A2, #5C258D);*/
+    /*background: linear-gradient(to right, #4389A2, #5C258D);*/
 }
 
 .wrapper{
@@ -137,16 +137,43 @@ body{
     accent-color: #927DFC;
 }
 
-.details .btn-download{
+/*.details .btn-download{*/
+/*    width: 100%;*/
+/*    color: #fff;*/
+/*    outline: none;*/
+/*    border: none;*/
+/*    cursor: pointer;*/
+/*    font-size: 1.06rem;*/
+/*    border-radius: 5px;*/
+/*    padding: 15px 0;*/
+/*    margin: 30px 0 10px;*/
+/*    background: #927DFC;*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+.details .btn-download {
     width: 100%;
-    color: #fff;
-    outline: none;
-    border: none;
-    cursor: pointer;
+    /*height: 38px;*/
+    text-transform: uppercase;
     font-size: 1.06rem;
-    border-radius: 5px;
     padding: 15px 0;
     margin: 30px 0 10px;
-    background: #927DFC;
-    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
+    transition: all 0.3s ease 0s;
+    outline: none !important;
+}
+
+.details .btn-download {
+    border: solid 2px #2EE59D;
+    color: #2EE59D;
+}
+
+.details .btn-download:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px #59b797;
+    color: #fff;
+    transform: translateY(-3px);
 }
