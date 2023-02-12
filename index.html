@@ -21,33 +21,35 @@
 </header>
 <section class="main-wrapper">
     <div class="wrapper">
+        <div class="inner-wrapper">
         <div class="upload-box">
             <input type="file" accept="image/*" hidden>
-            <img src="assets/img/upload-icon.svg" alt="">
-            <p>Browse Image to Upload</p>
+            <img src="assets/img/upload-solid.svg" alt="">
+            <p style="font-weight: lighter;">Browse Image to Upload</p>
         </div>
         <div class="details">
             <div class="row sizes">
                 <div class="column width">
                     <label>Width</label>
-                    <input type="number">
+                    <input type="number" class="shadow">
                 </div>
                 <div class="column height">
                     <label>Height</label>
-                    <input type="number">
+                    <input type="number" class="shadow">
                 </div>
             </div>
             <div class="row checkboxes">
                 <div class="column radio">
-                    <input type="checkbox" id="radio" checked>
+                    <input type="checkbox" id="radio" checked class="shadow">
                     <label for="radio">Lock aspect ratio</label>
                 </div>
                 <div class="column reduce">
-                    <input type="checkbox" id="reduce">
+                    <input type="checkbox" id="reduce" class="shadow">
                     <label for="reduce">Reduce quality</label>
                 </div>
             </div>
             <button class="btn-download">Download Image</button>
+        </div>
         </div>
     </div>
 </section>
