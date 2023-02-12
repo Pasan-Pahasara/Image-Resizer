@@ -12,6 +12,7 @@
 * {
     font-family: Ubuntu, sans-serif!important;
     font-weight: normal;
+    box-sizing: border-box;
 }
 
 /**
