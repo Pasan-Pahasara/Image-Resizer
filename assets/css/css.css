@@ -1,0 +1,15 @@
+/**
+ * @author : ShEnUx
+ * @time : 09:39 PM
+ * @date : 2/12/2023
+ * @since : 0.1.0
+ **/
+/*
+*Import Fonts
+ */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    font-family: Ubuntu, sans-serif!important;
+    font-weight: normal;
+}
