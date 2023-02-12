@@ -35,3 +35,16 @@ body{
     background: -webkit-linear-gradient(to right, #4389A2, #5C258D);
     background: linear-gradient(to right, #4389A2, #5C258D);
 }
+
+.wrapper{
+    width: 450px;
+    height: 288px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 9px;
+    transition: height 0.2s ease;
+}
+
+.wrapper.active{
+    height: 537px;
+}
