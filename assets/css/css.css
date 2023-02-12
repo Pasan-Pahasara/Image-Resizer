@@ -13,3 +13,15 @@
     font-family: Ubuntu, sans-serif!important;
     font-weight: normal;
 }
+
+/**
+ * Customized Scrollbar.
+ */
+::-webkit-scrollbar {
+    width: 6px;
+    background: #3f3838;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b88962;
+}
