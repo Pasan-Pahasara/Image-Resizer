@@ -123,3 +123,14 @@ body{
 .details .checkboxes{
     margin-top: 20px;
 }
+
+.checkboxes .column{
+    display: flex;
+    align-items: center;
+}
+.checkboxes .column input{
+    width: 17px;
+    height: 17px;
+    margin-right: 9px;
+    accent-color: #927DFC;
+}
